@@ -8,13 +8,30 @@
   "categories": [
     "Communication"
   ],
+  "preferences": [
+    {
+      "name": "apiKey",
+      "title": "Google Maps API Key",
+      "type": "password",
+      "required": true,
+      "description": "You can get your API key from https://developers.google.com/maps/documentation/javascript/get-api-key"
+    }
+  ],
   "license": "MIT",
   "commands": [
     {
       "name": "index",
       "title": "Google Maps ETA",
       "description": "Google Maps ETA in Menu Bar",
-      "mode": "menu-bar"
+      "mode": "menu-bar",
+      "interval": "5m"
+    },
+    {
+      "name": "locations",
+      "title": "Google Maps ETA - Set Locations",
+      "description": "Google Maps ETA in Menu Bar",
+      "mode": "view",
+      "shortcut": "cmd+shift+g"
     }
   ],
   "dependencies": {
