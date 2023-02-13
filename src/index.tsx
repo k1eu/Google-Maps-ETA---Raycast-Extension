@@ -1,11 +1,11 @@
 import { Icon, MenuBarExtra } from "@raycast/api";
 import { getFavicon } from "@raycast/utils";
-import useDistance from "./api/useDistance";
+import { useDirections } from "./api/useDirections";
 
 export default function Command() {
-  const { data, isLoading, revalidate } = useDistance();
+  const { data, isLoading, revalidate } = useDirections();
 
-  const eta = data?.rows[0].elements[0].duration.text;
+  const eta = data?.routes[0]?.legs[0]?.duration?.text || "Error";
 
   return (
     <MenuBarExtra icon={Icon.Bookmark} title={`ETA To Home: ${eta}`} isLoading={isLoading}>

@@ -1,0 +1,420 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJe1CA3WOfFkcRp-NP-of1EWg",
+      "types": ["locality", "political"]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJ0cyhNiPOFkcRu_pZBTUqr7k",
+      "types": ["locality", "political"]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 50.2648587,
+          "lng": 19.0714771
+        },
+        "southwest": {
+          "lat": 49.8219696,
+          "lng": 18.9407033
+        }
+      },
+      "copyrights": "Map data ©2023 Google",
+      "legs": [
+        {
+          "distance": {
+            "text": "37.6 mi",
+            "value": 60464
+          },
+          "duration": {
+            "text": "55 mins",
+            "value": 3308
+          },
+          "end_address": "Katowice, Poland",
+          "end_location": {
+            "lat": 50.2648587,
+            "lng": 19.0237644
+          },
+          "start_address": "Bielsko-Biala, Poland",
+          "start_location": {
+            "lat": 49.822385,
+            "lng": 19.0584366
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "374 ft",
+                "value": 114
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 22
+              },
+              "end_location": {
+                "lat": 49.8219696,
+                "lng": 19.0598309
+              },
+              "html_instructions": "Head <b>southeast</b> on <b>Krakowska</b> toward <b>DK52</b>",
+              "polyline": {
+                "points": "{|aoHgjisBDAFER}@Lq@Dm@?CZkB"
+              },
+              "start_location": {
+                "lat": 49.822385,
+                "lng": 19.0584366
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 184
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 34
+              },
+              "end_location": {
+                "lat": 49.8233773,
+                "lng": 19.061168
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Kazimierza Wielkiego</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "izaoH}risBuBmBaA}@GEm@m@k@k@"
+              },
+              "start_location": {
+                "lat": 49.8219696,
+                "lng": 19.0598309
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "440 ft",
+                "value": 134
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 42
+              },
+              "end_location": {
+                "lat": 49.8240473,
+                "lng": 19.0596082
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Starostów Lipnickich</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "ccboHi{isB]`A]fAWx@q@rB"
+              },
+              "start_location": {
+                "lat": 49.8233773,
+                "lng": 19.061168
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.7 mi",
+                "value": 2759
+              },
+              "duration": {
+                "text": "4 mins",
+                "value": 236
+              },
+              "end_location": {
+                "lat": 49.8461677,
+                "lng": 19.0675259
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Lwowska</b>/<wbr/><b>DW940</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "igboHqqisBu@q@s@u@a@g@aAcAoAoAA?]Wa@[g@YYMi@UYI_@Ma@Ma@O]QA?MGSM[Um@e@SSEEQQEE_A}@Y[OOeB_BEECCqAmAa@_@KMKKKKIKCCGIs@_A}@wAYc@S[SYa@e@QSMO[[yAwA_@]}@w@UUUUQQe@g@GEEEGEEGGGEGGIMQ{@cAy@cAqCiDEGSUOUUYSYi@s@c@i@k@o@USMOWQUOUMMGMESGYK[GQCOCOAY?G?O?O?QBS@UDSBk@JSFUDI@YFOFcB^s@PODKBMDi@P_@JSHe@Pa@NqAf@KBaBj@KDEB_A\\MFu@X]NGBA?A@C?AAC?EAAA?AA?AAA?AAA?A?A?A?A?A?A?A@A?A@A@A@A@A@AB?@A@?@A@?@?BA@?@CFC@EDC@UFIBIBq@VSFWLC?wDtAkA`@w@XSHqEbBa@N]LUH[F"
+              },
+              "start_location": {
+                "lat": 49.8240473,
+                "lng": 19.0596082
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 278
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 28
+              },
+              "end_location": {
+                "lat": 49.8464702,
+                "lng": 19.0643516
+              },
+              "html_instructions": "At the roundabout, take the <b>3rd</b> exit onto the <b>S1</b>/<wbr/><b>S52</b> ramp to <b>S1</b>/<wbr/><b>Cieszyn</b>/<wbr/><b>Katowice</b>/<wbr/><b>A4</b>/<wbr/><b>Kraków</b>",
+              "maneuver": "roundabout-right",
+              "polyline": {
+                "points": "qqfoHacksBACAA?CAAAAAAAAAAA?AAA?AAA?A?A?A?I?C@C@A@EFCLAB?@?B?F?DBJ?@@B?B@@@B?@@BBB@N?R@^@L?N@P@NPfB@TBT?H?J@J?J?NALANAJALCXCTETGZShA"
+              },
+              "start_location": {
+                "lat": 49.8461677,
+                "lng": 19.0675259
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.2 mi",
+                "value": 1991
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 77
+              },
+              "end_location": {
+                "lat": 49.8502377,
+                "lng": 19.0381204
+              },
+              "html_instructions": "Merge onto <b>S1</b>/<wbr/><b>S52</b>",
+              "maneuver": "merge",
+              "polyline": {
+                "points": "msfoHeojsBS~@UfAKd@Id@Id@[rBWpBCNANg@xEa@`EUhBKl@Il@Id@Q~@Mj@Oj@[rAU|@GRs@hC_@pA_@nBOh@O`AK|@M`AOfBOfBQhCi@rFE`@Ef@iAlIy@hFAHs@xE[xBa@zCQdBEr@IdBEfCB`CF~ABVFt@@NBVDh@X|BT`BDd@BJ\\pCHf@DZ@HFr@Ff@Fb@DXD^"
+              },
+              "start_location": {
+                "lat": 49.8464702,
+                "lng": 19.0643516
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.5 mi",
+                "value": 797
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 44
+              },
+              "end_location": {
+                "lat": 49.85182990000001,
+                "lng": 19.0288538
+              },
+              "html_instructions": "At the interchange <b>Bielsko-Biała Komorowice</b>, keep <b>right</b> and follow signs for <b>Droga Krajowa 1</b>/<wbr/><b>E75</b>/<wbr/><b>E462</b> toward <b>Łódź</b>/<wbr/><b>Katowice</b>/<wbr/><b>A4</b>/<wbr/><b>Kraków</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "_kgoHgkesB?T@JBTHz@D\\Ht@Jp@Hh@LbAD\\@HDZF`@R~ALz@@HDb@Dd@H`ABz@?B@fAAbAEdAGhAAFEn@SvAYtAOh@M`@_@hAWh@c@x@_@j@c@j@[Za@\\e@`@i@ZA@o@XC@OR"
+              },
+              "start_location": {
+                "lat": 49.8502377,
+                "lng": 19.0381204
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "22.5 mi",
+                "value": 36253
+              },
+              "duration": {
+                "text": "32 mins",
+                "value": 1926
+              },
+              "end_location": {
+                "lat": 50.1318586,
+                "lng": 19.0253242
+              },
+              "html_instructions": "Merge onto <b>Warszawska</b>/<wbr/><b>DK1</b>/<wbr/><b>E462</b>/<wbr/><b>E75</b><div style=\"font-size:0.9em\">Continue to follow DK1/<wbr/>E462/<wbr/>E75</div>",
+              "maneuver": "merge",
+              "polyline": {
+                "points": "}tgoHiqcsBiCj@aAX?@m@Pm@Pi@Ni@LQDUD]J]Ho@RmAZ}A`@}@VWFo@TgA`@c@Rc@RYNWLOJA@OJm@d@URk@j@URe@h@OPQRQTOVoAjBWd@U`@ABKPA@MVCFGLUd@O\\MZOd@Od@Od@c@|AYx@Y`Au@|B_BdFo@tBGPi@dBcAzCk@fB]lA[~@Ql@]dAWv@ELELIVWn@KVITMVIRQZA@KRGJGJMRMPKPSVQV]b@_GnHOP_CnCkH|IGHcBrBi@l@MNu@hA_BrBsGhIa@f@KN}BtCe@p@_AfAcAlA}CtDy@bA}AjBqA`BgBxBY\\{AhBmA|AuAdBA@qBdC_AfAKH{@v@m@b@YPE@IFWLSJUJUHc@Lc@J_@HC?e@Fi@Bg@?_@A_AGq@Ki@Mi@Qk@S_@QOIOGMGw@]CCm@YOICAy@]aA_@]IWIq@KICYCSAk@CU?U@g@B{@FeANwAb@gAb@w@d@OHcEfCyA~@sDzBuEtCa@V_CxAu@b@sBpAqEvCeAp@q@b@m@^qEpB}Ab@C@a@HA@e@HuAPE@gE\\sDVgBHyEPW@}BLk@B_BFyCNyAFqAFoAJgFNK@kERyCNaBHI?kETqARWDWFe@Ns@Xg@VKF]TA?gAv@wFbE]Xs@d@C@}@b@_@NC@e@Nw@P[FG@_@Fc@Da@@m@?q@A{DG_PUqEGa@C_@As@CqCKe@C[Ee@Gy@Qs@UWKc@UKEIIUKOK]Wm@i@_@]aB{AaC{BmGoG[UMI}@m@{@g@q@Yu@Y_AOCAg@Im@GMAQAWA_@BM?eAFm@F}@VeA^G@mDzAa@RQHA?[LuBdAu@`@KHQLQN]Xq@l@iBbBkAbAc@`@i@f@sClC{DrD{AxA}AvAi@f@m@j@s@n@gFxE{CnCQNk@d@WNMFm@\\{@`@g@P[JiCx@YHiDfAqCz@sA`@g@PIBWHIBkErAi@R]Ne@Re@VWRMHMLSRSRaApAu@nAO^_@dAWz@c@dBGXEPkAfFyBfKeApEg@rBMb@]~@_@|@IPSb@OXQV[b@CBk@n@i@d@o@h@QNyBfBmC~BsC`Cg@b@oFrE[VAB}ApAwBjBk@d@iA~@kA~@a@ZmErCuA|@oAz@u@b@sCdB[RwA|@oCdBq@b@[RsCbBg@\\kFhDoBlAwFpDgFdDuBrAcC|A}B|Ay@d@w@d@e@Ve@VE@SJg@RUJSD{@LO@kB@qAAY?IAY?]Aw@@w@Ac@AwAAkFGA?IAG?O?C?G?cBEsEIc@AKAgEIqFKgDOK?aACsAEiAAU@w@CiACiCIkAAyCEqBCq@?e@@[Ba@D[Fk@Na@P}@\\kEpBYNuCrA_A`@{At@cBx@C@sAl@yFjCgClAIBKFkClAKDm@ZaBv@iB|@OHe@Vu@Zk@VmCpA{CvA_EjB{@`@wG|CsHlDcDzAq@`@aAf@A?[P]N_@L]J_@Ha@HkBRk@D_@C]Aa@E_@Gk@Mg@Mq@WWKUQk@YcAc@GCoEuBUGeA]a@Oe@OkCqAgBy@wAq@qAm@}@e@k@]q@e@g@c@c@a@cAgAc@i@[c@OUaAeBkA}Bg@aAq@qAs@eAg@m@e@e@m@g@w@m@gAu@k@[]OCAUISIe@Mk@Oc@KWEw@K_AE_@?g@@Q?SBu@Da@Be@Hm@Lu@Ts@V_Ad@CBs@b@e@\\_Av@[X[\\KNIJOPYZW^Yd@s@rAk@jAe@hAa@dAMXM^{@xBgArCk@~AQb@qClHk@vASd@IPQ`@q@rAu@nA]h@gCpDoBnCi@t@_ApA_@h@CDwArBiBfCkA|AaAnAmAxAaAbACBkAbAwAdAa@Vm@^k@XiAj@aBl@_@L_@J[J]Ja@Hi@Jy@Hq@FkAHq@@c@BoBA{AIA?SAu@EA?sF_@yEWcPcAoCOwDUyBQ_CM{@Ga@C}BMkBK}@GeBM_AGuAIi@CsAIwDYq@EkAGuAIqAImBOgBK_CO{BMSCkBMsAI[CiBIIAoAGk@IWEWGa@KWGa@OOEa@Ma@Qe@QYOo@]w@g@e@[UOc@[oAkAo@s@c@k@k@w@k@y@[g@U_@o@eAEI]q@c@eA]{@uCgIeAyC}@gCo@kBg@oAaAoCwAcEa@cAy@uBeB_F_@eAm@cBiA}C}BoGGOM_@}@cC}@aC{BcGoAaD_FeNQe@sAuD}BmGaBqE}BoGk@aBs@mByAcEyBcGg@uAyC_J_AqC{AoEkAsDSi@k@eBeA}C{CiJgDaKkBsFq@uBmBaGoAsDu@yB]eAe@wA_@eAMa@c@qAK[s@{BCIEMeAcDyBaHAGoBgGOc@iAgD{AwEm@aBe@qAi@qAo@wAk@iAaAcB_AyAGKQUIK[a@Y]]c@m@m@i@i@cA}@i@c@}@o@k@]}@i@o@[y@]eBq@eC{@QGa@MaA]sFiByDsAmBu@e@MsHgCkA_@aAa@u@Ws@Ui@Qk@QeBk@YI}Ai@kDkAwEsA_@I_AQ}AOqAKw@Ci@AsCDmAHeAN_APsB^_@JeBd@aCh@kCx@aARSD[FYDm@Hu@F]Dk@Bo@@eA?q@Cs@GwAUw@Qa@IECk@QgBm@iAa@WI}GeCkAa@}FuBCA_A]u@Yk@Us@Wa@Ki@Kg@Gi@Ce@?c@BG@S@SB_@D]Fk@Jm@Hg@Bo@B[@k@?g@Ca@Ic@GiAYcA_@[Qk@a@m@c@KKWWk@m@m@k@cAeAUSaAaAe@i@OQm@m@k@g@q@e@WKQIGEg@WMIa@O_@Ka@IyBGI?G?QAWC_AIk@G_B_@i@Sy@a@w@e@g@_@k@i@SSQSe@m@u@gA_@q@Wg@cA{BQ_@wB}EaAwBi@oAEIk@mAk@qAuAaCSYIKk@q@k@i@MMuDmDq@u@IIMMg@i@iAgAkCkCOOoBmBgAaA_@]]YiAy@EEs@e@eAq@[Sc@U_CmAu@[g@U]OKEiAa@gAYoA_@SEiB_@cBW_AKm@G[CG?oDU}DS"
+              },
+              "start_location": {
+                "lat": 49.85182990000001,
+                "lng": 19.0288538
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "8.3 mi",
+                "value": 13282
+              },
+              "duration": {
+                "text": "10 mins",
+                "value": 582
+              },
+              "end_location": {
+                "lat": 50.2402186,
+                "lng": 19.0527597
+              },
+              "html_instructions": "Keep <b>left</b> to continue on <b>Beskidzka</b>/<wbr/><b>DK86</b><div style=\"font-size:0.9em\">Continue to follow DK86</div>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "ck~pHg{bsBq@AiCOI?wBK}AG[CkBIaCKaBIi@CyAGkAEGAq@Ao@?q@?q@Bq@Bg@Do@Fq@Lw@LiGfBaCx@uC~@eF~AeCv@kA`@UDaAVqATw@Jm@Fq@Dm@B_A@u@?_ACo@Ci@Em@Gk@Ik@IQEs@Oo@OcAWoA[}Bm@kA[[G_AUq@Mi@Ig@GWCQC{@GeACmA?{AF}@F[Bk@FoATm@NWFUFYFm@Rs@V}@^cAh@u@b@cAp@_Ap@EBy@r@}ApACB_@Z_@Zo@l@kA`AuAdAsAjAyApAmA`A}ArAe@`@}@t@c@^i@^w@j@w@l@q@d@s@`@w@^eAb@i@PG@GBu@Pm@Jo@He@Di@Bc@AKBq@Ae@CWCw@Ga@GC?k@IwAY[Mm@U_A_@OIWKs@a@IEeB}@}Ay@cBaAi@[gBgAkAw@a@YMKA?OKAA[Ug@[y@o@y@o@UO_@[qCqBUOg@a@uCuBYUeAy@oB{ACCi@a@iA}@oCsB}AkAmA_Aw@s@aAaAq@u@y@eA{AmBkCiDaBuBy@gAgAuAyAoBqA_B}@kAkA{Ay@iAc@k@i@y@cAyA}@yACCYe@]m@u@kAyAeCcAeBq@iAo@gAOUsA_Cm@_Ae@s@ACY_@IMa@i@[a@a@e@e@e@[]i@i@g@a@wAmAaCqBo@k@iA_AwAmAuAiAq@o@uBgBKKeBwA{AqAc@_@yAqA}AqAoAeAcA{@g@e@OKm@o@]a@_@c@[e@c@s@s@sAa@cAc@oACGk@sBiAwEYiA_@sAc@sA[{@O[?AKUGKCEIUMSYk@Ue@CA]i@g@m@cAcA_@[c@[{@i@UMq@[UIq@Qa@IIAa@Ii@E{@Ao@?i@Bm@Fc@Hg@Ha@Jg@Ng@NuBn@oBp@qBn@aBh@kAZ{@Pu@Fs@Do@?q@Ae@G]Eg@I[I]K_@Ma@Qc@Sg@]e@]_@Y]Ya@]eBcBq@o@o@o@sAqA[[cE{Du@s@]]i@e@oBiBsBoBwBqBeB_ByBqBKKSQaGyFy@s@iAy@_@Ws@_@WKOEIEk@Qi@Qg@KUEMCkAQUCWAO?O?MAi@@m@Bi@Fo@Hc@JC?m@NA?qElAG@a@LmFvAmAZODmEjA_@JwA\\SFSDc@Lk@N]Je@LE@aB^A@UFaBb@kAZ_@FODC@_@HQDqAXmD|@iCp@yCv@wBj@IBe@Lk@N_ATUF_AVcDt@oDx@g@NmAXsA\\mBf@SDm@NoA\\WHi@LeAXcFrAaB`@}@VSDKBWFe@Nu@PYHyA^A?}A`@"
+              },
+              "start_location": {
+                "lat": 50.1318586,
+                "lng": 19.0253242
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.7 mi",
+                "value": 2709
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 129
+              },
+              "end_location": {
+                "lat": 50.2638467,
+                "lng": 19.0474131
+              },
+              "html_instructions": "Keep <b>left</b> to stay on <b>DK86</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "kpsqHwfhsBUN_ATk@LeATA?WFc@LsA\\c@Nc@NcFpA_@LSDEBmA\\uBh@kCj@mBb@aBd@sA\\iCr@mCr@}A`@SF}EnAcAVQDYH[HQD[HoCt@_@J_Bb@y@T]J[FA@y@Ri@J_@DG@[Be@?e@@_@Aa@Ck@GaAMe@IuAQy@MsAMc@Cs@Ea@A]A_@@O?K?YBM@Y@I@M@YDm@Hy@Nk@Nk@Rw@\\m@Xs@\\_CtAg@Vw@f@QJULSJWJSHWFYDMBK@A?SBQ?]?WAMAA?IAIAC?WEMCE?UEUG?AQGSKWKQIMGMIg@c@cAgA"
+              },
+              "start_location": {
+                "lat": 50.2402186,
+                "lng": 19.0527597
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.5 mi",
+                "value": 771
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 50
+              },
+              "end_location": {
+                "lat": 50.2621161,
+                "lng": 19.0396532
+              },
+              "html_instructions": "Take the exit onto <b>DK79</b> toward <b>Poznań</b>/<wbr/><b>Bytom</b>/<wbr/><b>Gliwice</b>/<wbr/><b>Katowice Centrum</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "adxqHiegsB]kAAM?I?G@M@KBK@E@EBGDEBCBCBCDCDADAD?D?D@D@FBDDDDFJJNZh@JPFJFHDHFNR`@Lv@RlAF`@`@nCR`ALv@XdBF^DZDb@D`@?@B\\Dr@@X@TBd@FrAB|@@r@@bA?VWjL"
+              },
+              "start_location": {
+                "lat": 50.2638467,
+                "lng": 19.0474131
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 248
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 24
+              },
+              "end_location": {
+                "lat": 50.2624471,
+                "lng": 19.0362122
+              },
+              "html_instructions": "Take the exit toward <b>Centrum</b>/<wbr/><b>Koszutka</b>/<wbr/><b>Siemianowice Śl.</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "gywqHytesBId@CLCRMlCCl@GrBANIjCIzC"
+              },
+              "start_location": {
+                "lat": 50.2621161,
+                "lng": 19.0396532
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "341 ft",
+                "value": 104
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 16
+              },
+              "end_location": {
+                "lat": 50.2625363,
+                "lng": 19.0347537
+              },
+              "html_instructions": "Keep <b>left</b> to continue on <b>al. Walentego Roździeńskiego</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "i{wqHi_esBAbBEz@IbC"
+              },
+              "start_location": {
+                "lat": 50.2624471,
+                "lng": 19.0362122
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.5 mi",
+                "value": 792
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 92
+              },
+              "end_location": {
+                "lat": 50.264591,
+                "lng": 19.0242763
+              },
+              "html_instructions": "Keep <b>right</b> to stay on <b>al. Walentego Roździeńskiego</b>",
+              "maneuver": "keep-right",
+              "polyline": {
+                "points": "{{wqHevdsBIdACt@Er@ADA`@Cz@EpBCx@?LI~C?JA\\Cj@Gt@Cj@Gn@M|@OhAIh@aApGMbA]dCMv@QfAMp@E\\CN]|BSlAM|@EPEJCFEFk@p@"
+              },
+              "start_location": {
+                "lat": 50.2625363,
+                "lng": 19.0347537
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "157 ft",
+                "value": 48
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 6
+              },
+              "end_location": {
+                "lat": 50.2648587,
+                "lng": 19.0237644
+              },
+              "html_instructions": "Enter the roundabout",
+              "polyline": {
+                "points": "uhxqHwtbsBSRKPITGVCR"
+              },
+              "start_location": {
+                "lat": 50.264591,
+                "lng": 19.0242763
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "{|aoHgjisBn@wBDq@ZkBuBmBiAcAyAyAeCvH}H{HmCyA}Bu@eD}BqFkFmDmDuF{HwJuJ{IyKoCaDqA_AwCs@qCNaH|AoExAuI`Dy@PYES^mBx@qQtGqBn@EKOKYBMn@XhDXpE]xCqChPeCfT}DxOkAxG_AzK_CjSkCfQcAzKH`KlAxKlAxJ`ChSVtCBjEUfEkAxF{BxEgCfC_Bx@{EzAsGbByGhBsDrA{DdCwBzBcClDwAlCaDhJyOdg@eBzD{BbD_Zj^{TnYiTvWwGjIuDlDeDxAmB\\qDEqD_AmAk@wGoCmB]kBCcBJ}Cr@sIzEa_@pUwBtA_GpCeCp@iIz@mOt@_TdAyQt@iKr@iCv@sAt@qKzHeBv@aCj@sCNgf@}@aDc@{B}@_KyIiHeHkAw@mBaAuBi@gBUiA?_Ef@}GpCkGfDcTzR{UnT_CzAiGxB}NrEyHjCyAbA_DhEkBfGoId_@{ArDaAxA{Q|OeTrQsUdOm^hU}WpPwAl@kEVmDEw`@k@sUi@yLUeF@kCn@yLrFcV~Kgt@f]qK`FyEl@_CS}C_AmCsAmIkDqJmEmFwCsDwDyD}GuDgGsEqDcBw@iCs@oDWcCJkDp@kDdB}ClC_AhAqCdFeHzQ{E|LwCnFgQtV}GjIiEdDeGrCyBp@wDf@qGL{c@mCkp@aEyUyAcN_AmFcBgDqByDkDaGgJuNw`@_c@}kAeV}p@oPyf@u\\mcAuO{e@kDeI{C_F}AoBeEyDwEsCwHsCe`@uM_NsEcN{DqGa@aFNeC`@{JzB}FzA{C\\sE@eFy@cZmKeDoAgDw@{B@eBRqD\\qCKmEsA}BiByI_JgCcB_Bw@wHm@kCg@cBu@_DcCmC{DeFaL}C_H_DyFmKoKuIqIoEsD{CqBaGuC{DqAqH}A{TsAuR{@_FQeEFaEh@gW`IiHvBiFn@cF@sD[_OmDwDu@mCWmHJeEp@uBj@kFdCeJhHqQjOcE`DuEtC_Cz@yDl@kCBwCWcDq@uCkAcQ}JqTaPiRyNeFqFcKuMeO}RqKcQ{G_LeEcFed@a`@kEsDgC{CwAgCeAsCsC}KgCiHgA{BmC}CuCoB{CaAqCSkDTsQpFqFz@eDOaCm@sCaBwKcKcW_V{KiKwEeDsEqAiCWuBBkK|BgUdG{PhEig@dMk_@tJkTzF{U`GaZ|H_S`FoBFoD[iGw@wCMuCLmDn@eEhBgIpEqCVeBQaCy@gC}B_@kBXcAj@MtAhB\\n@|@hEvBpN\\zHSzP_@tEs@|Ve@~Lc@tKuDlWcBfKiAtAa@rA"
+      },
+      "summary": "DK1 and DK86",
+      "warnings": [],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}

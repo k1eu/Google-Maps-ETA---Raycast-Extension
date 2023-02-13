@@ -21,7 +21,7 @@ type DistanceResponse = {
   }[];
 };
 
-function useDistance() {
+export function useDistance() {
   const { apiKey } = getPreferenceValues<Preferences>();
   const { currentLocation: from, destination: to, isLoading: isLoadingLocations } = useLocations();
 
@@ -33,4 +33,3 @@ function useDistance() {
     }
   );
 }
-export default useDistance;
