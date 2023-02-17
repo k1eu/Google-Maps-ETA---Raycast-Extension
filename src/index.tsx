@@ -5,7 +5,7 @@ import { useDirections } from "./api/useDirections";
 export default function Command() {
   const { data, isLoading, revalidate } = useDirections();
 
-  const eta = data?.routes[0]?.legs[0]?.duration?.text || "Error";
+  const eta = data?.routes[0]?.legs[0]?.duration_in_traffic?.text || "Error";
 
   return (
     <MenuBarExtra icon={Icon.Bookmark} title={`ETA To Home: ${eta}`} isLoading={isLoading}>

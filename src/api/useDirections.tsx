@@ -14,6 +14,10 @@ type DirectionsResponse = {
         text: string;
         value: number;
       };
+      duration_in_traffic: {
+        text: string;
+        value: number;
+      };
       end_address: string;
       end_location: {
         lat: number;
@@ -33,7 +37,7 @@ export function useDirections() {
   const { currentLocation: from, destination: to, isLoading: isLoadingLocations } = useLocations();
 
   return useFetch<DirectionsResponse>(
-    `https://maps.googleapis.com/maps/api/directions/json?units=imperial&origin=${from.lat},${from.lng}&destination=${to.lat},${to.lng}&key=${apiKey}`,
+    `https://maps.googleapis.com/maps/api/directions/json?units=imperial&origin=${from.lat},${from.lng}&destination=${to.lat},${to.lng}&departure_time=now&key=${apiKey}`,
     {
       keepPreviousData: true,
       execute: !isLoadingLocations,
@@ -43,6 +47,7 @@ export function useDirections() {
       },
       onData(data) {
         console.log(data);
+        console.log(data.routes[0].legs);
       },
     }
   );
