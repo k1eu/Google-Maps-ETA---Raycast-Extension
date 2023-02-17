@@ -39,6 +39,10 @@ export function useDirections() {
       execute: !isLoadingLocations,
       onError: (error) => {
         showHUD(error.message);
+        console.log(error);
+      },
+      onData(data) {
+        console.log(data);
       },
     }
   );
